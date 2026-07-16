@@ -1,0 +1,46 @@
+/* css/variables.css */
+
+:root {
+  /* Colors */
+  --primary-hsl: 222, 47%, 11%;
+  --primary-light-hsl: 217, 91%, 60%;
+  --accent-hsl: 343, 80%, 50%;
+  --accent-hover-hsl: 343, 80%, 40%;
+  --bg-light-hsl: 210, 40%, 98%;
+  --bg-card-hsl: 0, 0%, 100%;
+  
+  --primary: hsl(var(--primary-hsl));
+  --primary-light: hsl(var(--primary-light-hsl));
+  --accent: hsl(var(--accent-hsl));
+  --accent-hover: hsl(var(--accent-hover-hsl));
+  
+  --bg-light: hsl(var(--bg-light-hsl));
+  --bg-card: hsl(var(--bg-card-hsl));
+  --bg-dark: hsl(222, 47%, 6%);
+  
+  /* Text colors */
+  --text-main: hsl(215, 25%, 27%);
+  --text-muted: hsl(215, 16%, 47%);
+  --text-light: hsl(210, 40%, 98%);
+  
+  /* Borders & Shadows */
+  --border-color: hsl(214, 32%, 91%);
+  --border-color-dark: hsl(215, 25%, 18%);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-full: 9999px;
+  
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 20px 40px rgba(15, 23, 42, 0.12);
+  --shadow-glow: 0 0 20px rgba(225, 29, 72, 0.35);
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* Container width */
+  --max-width: 1200px;
+}

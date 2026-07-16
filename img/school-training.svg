@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="accGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#60a5fa" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="600" height="400" fill="url(#bgGrad)" />
+  
+  <!-- Abstract Design Lines -->
+  <path d="M 0 100 Q 150 150 300 100 T 600 100" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.15" />
+  <path d="M 0 300 Q 150 250 300 300 T 600 300" fill="none" stroke="#ef4444" stroke-width="0.1" />
+
+  <!-- Stylized Iconography: Racket & Graduation Cap or Shield -->
+  <g transform="translate(300, 180)">
+    <!-- Glow -->
+    <circle cx="0" cy="0" r="100" fill="#3b82f6" opacity="0.08" />
+    
+    <!-- Racket silhouette -->
+    <path d="M -40,-20 C -40,-60 -10,-80 20,-80 C 50,-80 70,-50 70,-20 C 70,10 50,30 20,30 C -10,30 -35,15 -38,-5 L -60,15 C -65,20 -75,20 -80,15 C -85,10 -85,0 -80,-5 L -40,-20 Z" 
+          fill="#3b82f6" stroke="#ffffff" stroke-width="3" />
+          
+    <!-- Ball bouncing line -->
+    <path d="M -90,-80 Q -30,-120 20,-60" fill="none" stroke="#f97316" stroke-width="4" stroke-dasharray="8,8" />
+    <circle cx="20" cy="-60" r="12" fill="#f97316" />
+    <circle cx="20" cy="-60" r="12" fill="#ffffff" opacity="0.3" />
+    
+    <!-- Target circles representing learning / tecnificación -->
+    <circle cx="-100" cy="40" r="30" fill="none" stroke="#10b981" stroke-width="5" opacity="0.8" />
+    <circle cx="-100" cy="40" r="15" fill="#10b981" opacity="0.8" />
+    <circle cx="-100" cy="40" r="5" fill="#ffffff" />
+  </g>
+  
+  <text x="300" y="340" font-family="'Outfit', sans-serif" font-weight="700" font-size="22" fill="#ffffff" text-anchor="middle">
+    ESCUELA DE FORMACIÓN
+  </text>
+  <text x="300" y="365" font-family="'Inter', sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">
+    Clases y Entrenamientos Adaptados a Todos los Niveles
+  </text>
+</svg>

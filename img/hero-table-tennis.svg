@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2b5c" />
+      <stop offset="100%" stop-color="#1e40af" />
+    </linearGradient>
+    <linearGradient id="paddleRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#b91c1c" />
+    </linearGradient>
+    <linearGradient id="paddleBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <radialGradient id="ballShade" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#c2410c" />
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="15" stdDeviation="15" flood-color="#090d16" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  
+  <!-- Abstract Design Elements -->
+  <circle cx="700" cy="100" r="150" fill="#3b82f6" opacity="0.1" />
+  <circle cx="100" cy="500" r="250" fill="#ef4444" opacity="0.05" />
+  
+  <!-- Table Tennis Table Perspective -->
+  <g transform="translate(100, 320)" filter="url(#shadow)">
+    <!-- Table Surface -->
+    <polygon points="0,150 150,0 450,0 600,150" fill="#1e3a8a" stroke="#ffffff" stroke-width="4" />
+    <!-- Center Line -->
+    <line x1="300" y1="0" x2="300" y2="150" stroke="#ffffff" stroke-width="2" stroke-dasharray="5,5" />
+    <!-- Net -->
+    <polygon points="70,50 70,0 530,0 530,50" fill="none" stroke="#94a3b8" stroke-width="2" opacity="0.8" />
+    <pattern id="netPattern" width="6" height="6" patternUnits="userSpaceOnUse">
+      <path d="M 0 3 L 6 3 M 3 0 L 3 6" fill="none" stroke="#e2e8f0" stroke-width="0.5" />
+    </pattern>
+    <polygon points="70,50 70,0 530,0 530,50" fill="url(#netPattern)" opacity="0.5" />
+    <line x1="70" y1="0" x2="530" y2="0" stroke="#ffffff" stroke-width="3" />
+    <!-- Net Posts -->
+    <line x1="68" y1="50" x2="68" y2="-5" stroke="#475569" stroke-width="4" />
+    <line x1="532" y1="50" x2="532" y2="-5" stroke="#475569" stroke-width="4" />
+  </g>
+  
+  <!-- Red Paddle -->
+  <g transform="translate(250, 220) rotate(-15)" filter="url(#shadow)">
+    <!-- Handle -->
+    <rect x="-15" y="80" width="30" height="90" rx="10" fill="#d97706" stroke="#78350f" stroke-width="2" />
+    <rect x="-8" y="90" width="16" height="70" rx="4" fill="#f59e0b" opacity="0.6" />
+    <!-- Blade/Rubber -->
+    <circle cx="0" cy="0" r="95" fill="url(#paddleRed)" stroke="#ffffff" stroke-width="4" />
+  </g>
+  
+  <!-- Table Tennis Ball -->
+  <circle cx="340" cy="160" r="28" fill="url(#ballShade)" filter="url(#shadow)" />
+  <circle cx="332" cy="152" r="8" fill="#ffffff" opacity="0.4" />
+  
+  <!-- Text Overlay / Branding -->
+  <text x="400" y="540" font-family="'Outfit', sans-serif" font-weight="800" font-size="28" fill="#ffffff" text-anchor="middle" letter-spacing="2">
+    CLUB TENIS DE MESA ALCOY
+  </text>
+</svg>

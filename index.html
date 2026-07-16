@@ -1,11 +1,467 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Club Tenis de Mesa Alcoy | Escuela y Club Deportivo CTM Alcoy</title>
+  <meta name="description" content="Bienvenido al Club Tenis de Mesa Alcoy. Aprende ping pong en Alcoy con entrenamientos profesionales. Escuela para niños, adultos y competición. ¡Apúntate!">
+  
+  <!-- SEO Keywords / Meta -->
+  <meta name="keywords" content="tenis de mesa Alcoy, club tenis de mesa Alcoy, ping pong Alcoy, escuela tenis de mesa Alcoy, clases tenis de mesa Alcoy, aprender tenis de mesa Alcoy, entrenamiento tenis de mesa Alcoy, deporte Alcoy, club deportivo Alcoy">
+  <link rel="canonical" href="index.html">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Club Tenis de Mesa Alcoy | Escuela y Club Deportivo CTM Alcoy">
+  <meta property="og:description" content="Bienvenido al Club Tenis de Mesa Alcoy. Aprende ping pong en Alcoy con entrenamientos profesionales. Escuela para niños, adultos y competición. ¡Apúntate!">
+  <meta property="og:image" content="img/hero-table-tennis.svg">
+  <meta property="og:url" content="index.html">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Club Tenis de Mesa Alcoy | Escuela y Club Deportivo CTM Alcoy">
+  <meta name="twitter:description" content="Bienvenido al Club Tenis de Mesa Alcoy. Aprende ping pong en Alcoy con entrenamientos profesionales. Escuela para niños, adultos y competición. ¡Apúntate!">
+  <meta name="twitter:image" content="img/hero-table-tennis.svg">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsClub",
+    "name": "Club de Tenis de Mesa Alcoy",
+    "alternateName": "CTM Alcoy",
+    "description": "Club deportivo y escuela de tenis de mesa en Alcoy. Clases para todas las edades y niveles, entrenamientos federados y competiciones.",
+    "url": "index.html",
+    "logo": "img/club-hall.svg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Polideportivo Francisco Laporta, Ctra. Font Roja, s/n",
+      "addressLocality": "Alcoy",
+      "addressRegion": "Alicante",
+      "addressCountry": "ES"
+    },
+    "telephone": "965 524 995 / 691 651 897",
+    "email": "ctmalcoy@hotmail.es",
+    "openingHours": "Tu-Th-Fr 18:30-20:30"
+  }
+  </script>
 </head>
 <body>
-    <h1>test</h1>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo-link" aria-label="Ir a la página de inicio">
+        <svg class="logo-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <!-- Stylized ping pong paddle and ball -->
+          <circle cx="12" cy="10" r="8" />
+          <path d="M12 18v4" stroke-width="2" stroke-linecap="round" />
+          <circle cx="19" cy="18" r="2" fill="currentColor" />
+        </svg>
+        <span class="logo-text">CTM <span>Alcoy</span></span>
+      </a>
+      
+      <button class="nav-toggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="primary-nav">
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+      </button>
+
+      <nav id="primary-nav" class="nav-menu">
+        <a href="index.html" class="nav-link active">Inicio</a>
+        <a href="club.html" class="nav-link">El Club</a>
+        <a href="historia.html" class="nav-link">Historia</a>
+        <a href="equipos.html" class="nav-link">Equipos</a>
+        <a href="escuela.html" class="nav-link">Escuela</a>
+        <a href="galeria.html" class="nav-link">Galería</a>
+        <a href="noticias.html" class="nav-link">Noticias</a>
+        <a href="calendario.html" class="nav-link">Calendario</a>
+        <a href="patrocinadores.html" class="nav-link">Patrocinadores</a>
+        <a href="contacto.html" class="nav-link">Contacto</a>
+        <a href="apuntate.html" class="nav-cta">Apúntate</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" aria-label="Introducción del Club">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="margin-right:0.25rem;"><circle cx="12" cy="12" r="10"/></svg>
+            Nueva Temporada Abierta
+          </div>
+          <h1 class="hero-title">Aprende y Compite en el <span>Club Tenis de Mesa Alcoy</span></h1>
+          <p class="hero-subtitle">La escuela de ping pong definitiva en Alcoy. Clases de tenis de mesa para todas las edades y niveles, desde iniciación hasta alta competición federada. Diviértete y mejora tu técnica.</p>
+          <div class="hero-buttons">
+            <a href="apuntate.html" class="btn btn-accent">Apúntate ahora</a>
+            <a href="club.html" class="btn btn-outline-light">Conoce el club</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-image-container">
+            <img src="img/hero-table-tennis.svg" alt="Rqueta y pelota de tenis de mesa en una mesa azul de competición de CTM Alcoy" class="hero-image" width="600" height="600">
+          </div>
+          <!-- Floating cards -->
+          <div class="hero-floating-card card-1">
+            <svg class="floating-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12h8" stroke="#fff" stroke-width="2"/></svg>
+            <div class="floating-text">
+              <h4>+100</h4>
+              <p>Socios Activos</p>
+            </div>
+          </div>
+          <div class="hero-floating-card card-2">
+            <svg class="floating-icon" viewBox="0 0 24 24"><path d="M12 2l3 6 6 1-4 4 1 6-6-3-6 3 1-6-4-4 6-1z"/></svg>
+            <div class="floating-text">
+              <h4>4</h4>
+              <p>Equipos Federados</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave transition -->
+    <div class="wave-divider wave-divider-bottom">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V0C26.9,8.75,57.05,18.3,88.43,26.85,145.61,42.4,204.38,65.82,321.39,56.44Z" class="wave-fill-light"></path>
+      </svg>
+    </div>
+
+    <!-- Presentation Section -->
+    <section class="section-padding" style="background-color: var(--bg-light);" aria-label="Presentación">
+      <div class="container presentation-wrapper">
+        <div class="presentation-images">
+          <div class="presentation-img-col">
+            <img src="img/club-hall.svg" alt="Instalaciones del Club Tenis de Mesa Alcoy" class="presentation-photo" loading="lazy">
+          </div>
+          <div class="presentation-img-col">
+            <img src="img/school-training.svg" alt="Entrenamientos en la escuela de tenis de mesa de Alcoy" class="presentation-photo" style="margin-top:2rem;" loading="lazy">
+          </div>
+        </div>
+        <div class="presentation-text-block">
+          <span class="section-subtitle-tag">Bienvenidos al CTM Alcoy</span>
+          <h2 class="section-main-title">Más que un Club Deportivo en Alcoy</h2>
+          <p style="margin-top:1.5rem;">Fundado con la misión de promover el deporte del ping pong en Alcoy y alrededores, nuestro club ofrece un espacio de integración, superación y compañerismo. Nos enorgullece ser un referente de deportividad en la provincia de Alicante.</p>
+          <p>Disponemos de excelentes instalaciones de entrenamiento, mesas de nivel profesional, robots automatizados para perfeccionamiento de golpes y un staff de entrenadores altamente cualificados para acompañarte en tu crecimiento deportivo.</p>
+          <a href="club.html" class="btn btn-secondary" style="margin-top:1rem;">Ver más sobre el club</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="section-padding" style="background-color: var(--bg-card);" aria-label="Beneficios">
+      <div class="container">
+        <div class="section-title-wrapper">
+          <span class="section-subtitle-tag">¿Por qué jugar a tenis de mesa?</span>
+          <h2 class="section-main-title">Beneficios del Tenis de Mesa</h2>
+        </div>
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon-wrapper">
+              <!-- Inline SVG for brain/coordination -->
+              <svg class="benefit-icon" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/></svg>
+            </div>
+            <h3 class="benefit-title">Concentración y Agilidad</h3>
+            <p>El ping pong mejora los reflejos, la coordinación mano-ojo, la agilidad mental y el equilibrio dinámico en milésimas de segundo.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon-wrapper">
+              <svg class="benefit-icon" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            </div>
+            <h3 class="benefit-title">Apto para todas las edades</h3>
+            <p>Es uno de los pocos deportes que se puede practicar de forma segura a cualquier edad, minimizando el riesgo de lesiones graves.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon-wrapper">
+              <svg class="benefit-icon" viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+            </div>
+            <h3 class="benefit-title">Comunidad y Deporte</h3>
+            <p>Fomenta el compañerismo, la disciplina deportiva, el juego limpio y la socialización en un ambiente saludable y activo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- School & Classes Teaser -->
+    <section class="section-padding" style="background-color: var(--bg-light);" aria-label="Escuela">
+      <div class="container">
+        <div class="section-title-wrapper">
+          <span class="section-subtitle-tag">Formación para todos</span>
+          <h2 class="section-main-title">Aprender Tenis de Mesa en Alcoy</h2>
+        </div>
+        <div class="school-grid">
+          <div class="school-card">
+            <div class="school-img-side">
+              <img src="img/school-training.svg" alt="Clases de tenis de mesa infantil en CTM Alcoy" loading="lazy">
+            </div>
+            <div class="school-content-side">
+              <span class="card-tag">Infantil y Juvenil</span>
+              <h3 class="card-title">Escuela para Niños</h3>
+              <p>Desarrolla las capacidades motrices y disciplina de los más jóvenes mediante dinámicas divertidas y competitivas.</p>
+              <a href="escuela.html" class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.85rem; align-self: flex-start;">Ver clases</a>
+            </div>
+          </div>
+          <div class="school-card">
+            <div class="school-img-side">
+              <img src="img/hero-table-tennis.svg" alt="Entrenamiento de tenis de mesa para adultos en Alcoy" loading="lazy">
+            </div>
+            <div class="school-content-side">
+              <span class="card-tag">Adultos e Iniciación</span>
+              <h3 class="card-title">Escuela para Adultos</h3>
+              <p>Clases adaptadas tanto a quienes quieren iniciarse en el tenis de mesa como a quienes buscan perfeccionar su técnica.</p>
+              <a href="escuela.html" class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.85rem; align-self: flex-start;">Ver clases</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Teams Teaser -->
+    <section class="section-padding" style="background-color: var(--bg-card);" aria-label="Equipos federados">
+      <div class="container">
+        <div class="section-title-wrapper">
+          <span class="section-subtitle-tag">Competición Oficial</span>
+          <h2 class="section-main-title">Nuestros Equipos</h2>
+        </div>
+        <div class="benefits-grid">
+          <div class="card">
+            <div class="card-img-wrapper">
+              <img src="img/team-photo.svg" alt="Equipo de competición A CTM Alcoy" class="card-img" loading="lazy">
+            </div>
+            <div class="card-content">
+              <span class="card-tag">Liga Autonómica</span>
+              <h3 class="card-title">Equipo A</h3>
+              <p>Nuestro equipo de élite que representa al club en las máximas ligas autonómicas y nacionales.</p>
+            </div>
+            <div class="card-footer">
+              <a href="equipos.html" class="btn btn-secondary" style="padding: 0.4rem 1rem; font-size: 0.8rem;">Ver equipo</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-wrapper">
+              <img src="img/match-play.svg" alt="Equipo B CTM Alcoy de tenis de mesa" class="card-img" loading="lazy">
+            </div>
+            <div class="card-content">
+              <span class="card-tag">Promoción y Desarrollo</span>
+              <h3 class="card-title">Equipo B</h3>
+              <p>Equipo de formación y proyección enfocado en el fogueo y madurez de nuestros jugadores de cantera.</p>
+            </div>
+            <div class="card-footer">
+              <a href="equipos.html" class="btn btn-secondary" style="padding: 0.4rem 1rem; font-size: 0.8rem;">Ver equipo</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-wrapper">
+              <img src="img/timeline-history.svg" alt="Equipo de veteranos de CTM Alcoy" class="card-img" loading="lazy">
+            </div>
+            <div class="card-content">
+              <span class="card-tag">Veteranos (+40/+50)</span>
+              <h3 class="card-title">Veteranos</h3>
+              <p>La experiencia del club en ligas veteranas. Manteniendo la pasión y competitividad activa.</p>
+            </div>
+            <div class="card-footer">
+              <a href="equipos.html" class="btn btn-secondary" style="padding: 0.4rem 1rem; font-size: 0.8rem;">Ver equipo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events & News Teaser -->
+    <section class="section-padding" style="background-color: var(--bg-light);" aria-label="Noticias y eventos">
+      <div class="container" style="display: grid; grid-template-columns: 1.5fr 1fr; gap: 3rem;">
+        <div>
+          <h2 class="section-main-title" style="margin-bottom: 2rem;">Últimas Noticias</h2>
+          <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+            <article class="card" style="display: flex; flex-direction: row; align-items: center; border-radius: var(--radius-sm); overflow: hidden;">
+              <div style="width: 30%; aspect-ratio: 1; overflow: hidden; flex-shrink: 0; background-color: #cbd5e1;">
+                <img src="img/news-event.svg" alt="CTM Alcoy destaca en el último torneo autonómico" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
+              </div>
+              <div style="padding: 1.5rem; flex-grow: 1;">
+                <span class="card-tag">Competición</span>
+                <h3 class="card-title" style="font-size: 1.15rem; margin-bottom: 0.5rem;"><a href="noticias.html">Gran actuación del CTM Alcoy en el Torneo Autonómico</a></h3>
+                <p style="font-size: 0.85rem; margin-bottom: 0.5rem;">Nuestros palistas logran subir al podio en las categorías individual infantil y absoluto...</p>
+                <span style="font-size: 0.75rem; color: var(--text-muted);">15 Jul 2026</span>
+              </div>
+            </article>
+            <article class="card" style="display: flex; flex-direction: row; align-items: center; border-radius: var(--radius-sm); overflow: hidden;">
+              <div style="width: 30%; aspect-ratio: 1; overflow: hidden; flex-shrink: 0; background-color: #cbd5e1;">
+                <img src="img/school-training.svg" alt="Abierto el plazo de inscripción en la escuela de tenis de mesa de Alcoy" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
+              </div>
+              <div style="padding: 1.5rem; flex-grow: 1;">
+                <span class="card-tag">Escuela</span>
+                <h3 class="card-title" style="font-size: 1.15rem; margin-bottom: 0.5rem;"><a href="noticias.html">Inscripciones abiertas para la Escuela Temporada 2026/2027</a></h3>
+                <p style="font-size: 0.85rem; margin-bottom: 0.5rem;">Ya puedes reservar plaza para las clases dirigidas a niños y adultos de todos los niveles...</p>
+                <span style="font-size: 0.75rem; color: var(--text-muted);">10 Jul 2026</span>
+              </div>
+            </article>
+          </div>
+          <a href="noticias.html" class="btn btn-secondary" style="margin-top: 1.5rem; font-size: 0.85rem; padding: 0.6rem 1.25rem;">Ver todas las noticias</a>
+        </div>
+        
+        <div>
+          <h2 class="section-main-title" style="margin-bottom: 2rem;">Próximos Eventos</h2>
+          <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+            <div class="card" style="padding: 1.25rem; display: flex; gap: 1rem; align-items: center;">
+              <div style="background-color: var(--primary); color: var(--text-light); border-radius: var(--radius-sm); padding: 0.5rem 1rem; text-align: center; width: 65px; flex-shrink: 0;">
+                <span style="font-weight: 800; font-size: 1.25rem; display: block; line-height: 1; color: var(--accent);">25</span>
+                <span style="font-size: 0.7rem; font-weight: 600; text-transform: uppercase;">Jul</span>
+              </div>
+              <div>
+                <h4 style="font-size: 0.95rem; margin-bottom: 0.2rem;">Torneo Popular de Verano</h4>
+                <p style="font-size: 0.8rem; margin-bottom: 0; color: var(--text-muted);">Instalaciones CTM Alcoy</p>
+              </div>
+            </div>
+            <div class="card" style="padding: 1.25rem; display: flex; gap: 1rem; align-items: center;">
+              <div style="background-color: var(--primary); color: var(--text-light); border-radius: var(--radius-sm); padding: 0.5rem 1rem; text-align: center; width: 65px; flex-shrink: 0;">
+                <span style="font-weight: 800; font-size: 1.25rem; display: block; line-height: 1; color: var(--accent);">05</span>
+                <span style="font-size: 0.7rem; font-weight: 600; text-transform: uppercase;">Sep</span>
+              </div>
+              <div>
+                <h4 style="font-size: 0.95rem; margin-bottom: 0.2rem;">Jornada de Puertas Abiertas</h4>
+                <p style="font-size: 0.8rem; margin-bottom: 0; color: var(--text-muted);">Prueba gratis sin compromiso</p>
+              </div>
+            </div>
+          </div>
+          <a href="calendario.html" class="btn btn-secondary" style="margin-top: 1.5rem; font-size: 0.85rem; padding: 0.6rem 1.25rem; width: 100%;">Ver calendario completo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section-padding" style="background-color: var(--bg-card);" aria-label="Testimonios">
+      <div class="container">
+        <div class="section-title-wrapper">
+          <span class="section-subtitle-tag">Opiniones reales</span>
+          <h2 class="section-main-title">Lo que dicen de nosotros</h2>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <span class="testimonial-quote">“</span>
+            <p class="testimonial-text">"Empecé a jugar de adulto para hacer algo de ejercicio y me enganché de inmediato. El ambiente del club en Alcoy es excelente y los entrenamientos muy divertidos."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-info">
+                <h4>Carlos Gómez</h4>
+                <span>Miembro Escuela Adultos</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <span class="testimonial-quote">“</span>
+            <p class="testimonial-text">"Llevamos a nuestro hijo de 8 años a la escuela infantil y estamos encantados. Ha mejorado mucho su coordinación y le encanta la competitividad sana que fomentan."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-info">
+                <h4>María Sanchis</h4>
+                <span>Madre de alumno infantil</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <span class="testimonial-quote">“</span>
+            <p class="testimonial-text">"Instalaciones ideales para entrenar. El club cuenta con un gran nivel técnico y táctico, genial tanto si quieres competir federado como mejorar tu técnica."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-info">
+                <h4>David Pastor</h4>
+                <span>Jugador del Equipo A</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="section-padding" style="background: linear-gradient(135deg, var(--primary), var(--bg-dark)); color: var(--text-light); text-align: center; position: relative; overflow: hidden;">
+      <div class="container" style="position: relative; z-index: 10;">
+        <h2 style="color: var(--text-light); font-size: 2.5rem; margin-bottom: 1rem; font-weight: 800;">¿Quieres aprender o competir?</h2>
+        <p style="color: rgba(248, 250, 252, 0.8); max-width: 600px; margin: 0 auto 2.5rem auto; font-size: 1.1rem;">Reserva tu clase de prueba gratuita o infórmate sobre cómo inscribirte en el Club de Tenis de Mesa Alcoy. ¡Te esperamos!</p>
+        <a href="apuntate.html" class="btn btn-accent btn-lg">Empezar ahora</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo-link">
+          <svg class="logo-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="10" r="8" />
+            <path d="M12 18v4" stroke-width="2" />
+            <circle cx="19" cy="18" r="2" fill="currentColor" />
+          </svg>
+          <span class="logo-text">CTM <span>Alcoy</span></span>
+        </a>
+        <p class="footer-brand-text">Fomentando la práctica, valores y competición del tenis de mesa en Alcoy. Formación desde las bases hasta categorías absolutas.</p>
+      </div>
+      
+      <div>
+        <h3 class="footer-title">Enlaces rápidos</h3>
+        <ul class="footer-links">
+          <li class="footer-link"><a href="index.html">Inicio</a></li>
+          <li class="footer-link"><a href="club.html">El Club</a></li>
+          <li class="footer-link"><a href="historia.html">Historia</a></li>
+          <li class="footer-link"><a href="equipos.html">Equipos</a></li>
+          <li class="footer-link"><a href="escuela.html">Escuela</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="footer-title">Actividades</h3>
+        <ul class="footer-links">
+          <li class="footer-link"><a href="galeria.html">Galería</a></li>
+          <li class="footer-link"><a href="noticias.html">Noticias</a></li>
+          <li class="footer-link"><a href="calendario.html">Calendario</a></li>
+          <li class="footer-link"><a href="patrocinadores.html">Patrocinadores</a></li>
+          <li class="footer-link"><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="footer-title">Contacto</h3>
+        <ul class="footer-contact-list">
+          <li class="footer-contact-item">
+            <svg class="footer-contact-icon" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            <div class="footer-contact-text">
+              <span>Dirección</span>
+              Polideportivo Francisco Laporta, Ctra. Font Roja, s/n, 03801 Alcoy (Alicante)
+            </div>
+          </li>
+          <li class="footer-contact-item">
+            <svg class="footer-contact-icon" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            <div class="footer-contact-text">
+              <span>Teléfono</span>
+              965 524 995 / 691 651 897
+            </div>
+          </li>
+          <li class="footer-contact-item">
+            <svg class="footer-contact-icon" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            <div class="footer-contact-text">
+              <span>Email</span>
+              ctmalcoy@hotmail.es
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Club de Tenis de Mesa Alcoy. Todos los derechos reservados.</p>
+      <div class="footer-legal-links">
+        <a href="legal/aviso-legal.html">Aviso Legal</a>
+        <a href="legal/politica-privacidad.html">Privacidad</a>
+        <a href="legal/politica-cookies.html">Cookies</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
