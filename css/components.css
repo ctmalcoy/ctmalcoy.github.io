@@ -68,22 +68,25 @@
 .card {
   background-color: var(--bg-card);
   border-radius: var(--radius-md);
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 10px 30px -10px rgba(15, 23, 42, 0.08);
   overflow: hidden;
   border: 1px solid var(--border-color);
   transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+  display: flex;
+  flex-direction: column;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-md);
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.14);
+  border-color: rgba(30, 64, 175, 0.15);
 }
 
 .card-img-wrapper {
   position: relative;
   overflow: hidden;
-  aspect-ratio: 16 / 10;
-  background-color: #cbd5e1; /* fallback placeholder */
+  aspect-ratio: 16 / 9;
+  background-color: #cbd5e1;
 }
 
 .card-img {
@@ -94,11 +97,12 @@
 }
 
 .card:hover .card-img {
-  transform: scale(1.08);
+  transform: scale(1.06);
 }
 
 .card-content {
   padding: 1.5rem;
+  flex-grow: 1;
 }
 
 .card-tag {
@@ -115,6 +119,7 @@
   font-size: 1.25rem;
   margin-bottom: 0.75rem;
   font-weight: 600;
+  line-height: 1.3;
 }
 
 .card-footer {
@@ -673,4 +678,56 @@
   border-top-color: var(--border-color);
 }
 
+/* --- Responsive Utilities & Grids --- */
+.grid-2-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-4-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-sidebar-layout {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+.card-row-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
 
+@media (max-width: 992px) {
+  .grid-4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-sidebar-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-2-cols, .grid-3-cols, .grid-4-cols, .grid-sidebar-layout {
+    grid-template-columns: 1fr;
+  }
+  .card-row-layout {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .card-row-layout > div {
+    width: 100% !important;
+  }
+  .card-row-layout > div:first-child {
+    aspect-ratio: 16 / 9 !important;
+    height: auto !important;
+  }
+}

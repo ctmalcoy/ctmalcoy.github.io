@@ -1,0 +1,9 @@
+para subir cambios a github
+
+git add .
+git commit -m "mi mensaje de cambios"
+git push
+
+
+https://ctmalcoy.github.io/
+
