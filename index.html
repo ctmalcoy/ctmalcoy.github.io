@@ -159,12 +159,7 @@
   <header class="site-header">
     <div class="container nav-container">
       <a href="index.html" class="logo-link" aria-label="Ir a la página de inicio">
-        <svg class="logo-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <!-- Stylized ping pong paddle and ball -->
-          <circle cx="12" cy="10" r="8" />
-          <path d="M12 18v4" stroke-width="2" stroke-linecap="round" />
-          <circle cx="19" cy="18" r="2" fill="currentColor" />
-        </svg>
+        <img src="img/logo.png" alt="Logo CTM Alcoy" class="logo-icon" style="height:40px; width:auto; vertical-align:middle; margin-right:10px;">
         <span class="logo-text">CTM <span>Alcoy</span></span>
       </a>
       
@@ -203,17 +198,10 @@
         </div>
         <div class="hero-visual">
           <div class="hero-image-container">
-            <img src="https://images.unsplash.com/photo-1569137289129-9383b6d3bdb0?auto=format&fit=crop&w=800&q=80" alt="Raqueta roja y pelota de tenis de mesa profesional en una mesa de juego de CTM Alcoy" class="hero-image" style="border-radius: var(--radius-lg); object-fit: cover; box-shadow: var(--shadow-lg);" width="600" height="600">
+            <img src="img/club/20260718_112052.webp" alt="Instalaciones del club de tenis de mesa de Alcoy con mesas profesionales" class="hero-image" style="border-radius: var(--radius-lg); object-fit: cover; box-shadow: var(--shadow-lg);" width="600" height="600">
           </div>
-          <!-- Floating cards -->
-          <div class="hero-floating-card card-1">
-            <svg class="floating-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12h8" stroke="#fff" stroke-width="2"/></svg>
-            <div class="floating-text">
-              <h4>+30</h4>
-              <p>Socios Activos</p>
-            </div>
-          </div>
-          <div class="hero-floating-card card-2">
+          <!-- Floating card aligned to the right side -->
+          <div class="hero-floating-card card-2" style="top: 3rem; right: -1.5rem; bottom: auto; left: auto;">
             <svg class="floating-icon" viewBox="0 0 24 24"><path d="M12 2l3 6 6 1-4 4 1 6-6-3-6 3 1-6-4-4 6-1z"/></svg>
             <div class="floating-text">
               <h4>4</h4>
@@ -236,10 +224,10 @@
       <div class="container presentation-wrapper">
         <div class="presentation-images">
           <div class="presentation-img-col">
-            <img src="https://images.unsplash.com/photo-1502224562085-639556652f33?auto=format&fit=crop&w=600&q=80" alt="Instalaciones del Club Tenis de Mesa Alcoy con mesas profesionales" class="presentation-photo" style="border-radius: var(--radius-md); box-shadow: var(--shadow-sm); width: 100%; object-fit: cover; height: 220px;" loading="lazy">
+            <img src="img/club/20260718_111934.webp" alt="Instalaciones del Club Tenis de Mesa Alcoy con mesas profesionales" class="presentation-photo" style="border-radius: var(--radius-md); box-shadow: var(--shadow-sm); width: 100%; object-fit: cover; height: 220px;" loading="lazy">
           </div>
           <div class="presentation-img-col">
-            <img src="https://images.unsplash.com/photo-1529973625058-a665431328fb?auto=format&fit=crop&w=600&q=80" alt="Entrenamientos intensos en el CTM Alcoy" class="presentation-photo" style="margin-top:2rem; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); width: 100%; object-fit: cover; height: 220px;" loading="lazy">
+            <img src="img/club/20260718_112008.webp" alt="Entrenamientos intensos en el CTM Alcoy" class="presentation-photo" style="margin-top:2rem; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); width: 100%; object-fit: cover; height: 220px;" loading="lazy">
           </div>
         </div>
         <div class="presentation-text-block">
@@ -250,6 +238,82 @@
           <a href="club-tenis-mesa-alcoy/" class="btn btn-secondary" style="margin-top:1rem;">Ver más sobre el club</a>
         </div>
       </div>
+    </section>
+
+    <!-- Banner de Patrocinio Rediseñado -->
+    <section class="section-padding" style="background: linear-gradient(145deg, #1e293b, #0f172a); color: var(--text-light); position: relative; overflow: hidden; border-top: 1px solid rgba(255, 255, 255, 0.05); border-bottom: 1px solid rgba(255, 255, 255, 0.05);" aria-label="Oportunidades de Patrocinio">
+      <div class="container" style="position: relative; z-index: 2;">
+        <div style="text-align: center; max-width: 700px; margin: 0 auto 3.5rem auto;">
+          <span class="section-subtitle-tag" style="background: rgba(245, 158, 11, 0.1); color: var(--accent); border: 1px solid rgba(245, 158, 11, 0.2); padding: 0.4rem 1rem; border-radius: 50px; font-weight: 700; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px;">Sponsor Oficial</span>
+          <h2 style="color: var(--text-light); font-size: 2.5rem; font-weight: 800; line-height: 1.2; margin-top: 1.25rem; margin-bottom: 1rem;">Lleva tu marca al siguiente nivel con el CTM Alcoy</h2>
+          <p style="color: #94a3b8; font-size: 1.1rem; line-height: 1.6; margin: 0;">Disponemos de equipos en categorías locales, autonómicas y nacionales. Consigue una visibilidad única, duradera y de alto impacto para tu empresa.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem; margin-bottom: 4rem;">
+          <!-- Opción 1: Camisetas -->
+          <div style="background: rgba(30, 41, 59, 0.5); padding: 2.5rem; border-radius: var(--radius-md); border: 1px solid rgba(255, 255, 255, 0.05); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.3s ease, border-color 0.3s ease;">
+            <div>
+              <div style="height: 80px; overflow: hidden; border-radius: var(--radius-sm); margin-bottom: 1.25rem; border: 1px solid rgba(255,255,255,0.1);">
+                <img src="img/jersey-sponsor.png" alt="Patrocinio en Camiseta Oficial CTM Alcoy" style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+              <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--accent); margin-bottom: 0.75rem;">Equipación Oficial</h3>
+              <p style="color: #94a3b8; font-size: 0.9rem; line-height: 1.5; margin-bottom: 1.5rem;">Tu logotipo impreso en el frontal o reverso de las camisetas de competición oficial en ligas autonómicas y nacionales.</p>
+              <ul style="list-style: none; padding-left: 0; margin-bottom: 0; font-size: 0.85rem; color: var(--text-light); display: flex; flex-direction: column; gap: 0.5rem;">
+                <li style="display: flex; gap: 0.5rem; align-items: center;">✨ Visibilidad en toda España</li>
+                <li style="display: flex; gap: 0.5rem; align-items: center;">📸 Apariciones en prensa escrita y digital</li>
+                <li style="display: flex; gap: 0.5rem; align-items: center;">⭐ Impacto de marca premium</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Opción 2: Sala Francisco Laporta (Con imagen real del club de vallas) -->
+          <div style="background: rgba(30, 41, 59, 0.5); padding: 2.5rem; border-radius: var(--radius-md); border: 1px solid var(--accent); display: flex; flex-direction: column; justify-content: space-between; position: relative; box-shadow: 0 10px 30px -10px rgba(245, 158, 11, 0.15);">
+            <div style="position: absolute; top: -12px; right: 20px; background: var(--accent); color: #000; font-size: 0.7rem; font-weight: 800; padding: 0.25rem 0.75rem; border-radius: 50px; text-transform: uppercase; letter-spacing: 0.5px;">Más Destacado</div>
+            <div>
+              <div style="height: 80px; overflow: hidden; border-radius: var(--radius-sm); margin-bottom: 1.25rem; border: 1px solid rgba(255,255,255,0.1);">
+                <img src="img/club/20260718_111953.webp" alt="Vallas publicitarias del CTM Alcoy" style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+              <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--accent); margin-bottom: 0.75rem;">Vallas en Sala de Juego</h3>
+              <p style="color: #94a3b8; font-size: 0.9rem; line-height: 1.5; margin-bottom: 1.5rem;">Soporte rígido de gran tamaño instalado de forma permanente alrededor de las mesas oficiales en el Polideportivo Municipal.</p>
+              <ul style="list-style: none; padding-left: 0; margin-bottom: 0; font-size: 0.85rem; color: var(--text-light); display: flex; flex-direction: column; gap: 0.5rem;">
+                <li style="display: flex; gap: 0.5rem; align-items: center;">👥 Exposición a cientos de visitantes semanales</li>
+                <li style="display: flex; gap: 0.5rem; align-items: center;">🎯 Ubicación privilegiada de alta densidad</li>
+                <li style="display: flex; gap: 0.5rem; align-items: center;">💼 Ideal para branding local fuerte</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Opción 3: Web y Redes -->
+          <div style="background: rgba(30, 41, 59, 0.5); padding: 2.5rem; border-radius: var(--radius-md); border: 1px solid rgba(255, 255, 255, 0.05); display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="height: 80px; overflow: hidden; border-radius: var(--radius-sm); margin-bottom: 1.25rem; border: 1px solid rgba(255,255,255,0.1);">
+                <img src="img/social-sponsor.png" alt="Patrocinio en Web y Redes Sociales CTM Alcoy" style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+              <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--accent); margin-bottom: 0.75rem;">Web y Redes Sociales</h3>
+              <p style="color: #94a3b8; font-size: 0.9rem; line-height: 1.5; margin-bottom: 1.5rem;">Presencia constante y logotipos en nuestro sitio web oficial, crónicas semanales de resultados y en los perfiles de redes sociales del club.</p>
+              <ul style="list-style: none; padding-left: 0; margin-bottom: 0; font-size: 0.85rem; color: var(--text-light); display: flex; flex-direction: column; gap: 0.5rem;">
+                <li style="display: flex; gap: 0.5rem; align-items: center;">🌐 Logotipo destacado en pie de página y enlaces</li>
+                <li style="display: flex; gap: 0.5rem; align-items: center;">📣 Publicaciones periódicas de patrocinio</li>
+                <li style="display: flex; gap: 0.5rem; align-items: center;">⚡ Enlaces directos a tu empresa</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div style="background: rgba(30, 41, 59, 0.3); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: var(--radius-md); padding: 2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 2rem;">
+          <div>
+            <h4 style="margin: 0 0 0.25rem 0; font-size: 1.15rem; font-weight: 700; color: var(--text-light);">¿Tienes otra propuesta de patrocinio en mente?</h4>
+            <p style="margin: 0; font-size: 0.9rem; color: #94a3b8;">Estamos totalmente abiertos a colaborar en formatos especiales, torneos o activaciones de marca personalizadas.</p>
+          </div>
+          <div style="display: flex; gap: 1rem; align-items: center;">
+            <a href="contacto-club-tenis-mesa-alcoy/#inscripcion" class="btn btn-accent btn-lg" style="box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);">Solicitar Dossier Informativo</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Decorative vector glow background -->
+      <div style="position: absolute; bottom: -20%; left: -10%; width: 400px; height: 400px; background: radial-gradient(circle, rgba(99, 102, 241, 0.08) 0%, rgba(99, 102, 241, 0) 70%); border-radius: 50%; pointer-events: none;"></div>
+      <div style="position: absolute; top: -20%; right: -10%; width: 400px; height: 400px; background: radial-gradient(circle, rgba(245, 158, 11, 0.08) 0%, rgba(245, 158, 11, 0) 70%); border-radius: 50%; pointer-events: none;"></div>
     </section>
 
     <!-- Benefits Section -->
@@ -296,7 +360,7 @@
         <div class="school-grid">
           <div class="school-card">
             <div class="school-img-side" style="height: 180px; overflow: hidden;">
-              <img src="https://images.unsplash.com/photo-1511067007398-7e4b90cfa4bc?auto=format&fit=crop&w=600&q=80" alt="Clases de tenis de mesa infantil en CTM Alcoy" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
+              <img src="img/club/20260718_112052.webp" alt="Clases de tenis de mesa infantil en CTM Alcoy" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
             </div>
             <div class="school-content-side">
               <span class="card-tag">Infantil y Juvenil</span>
@@ -307,7 +371,7 @@
           </div>
           <div class="school-card">
             <div class="school-img-side" style="height: 180px; overflow: hidden;">
-              <img src="https://images.unsplash.com/photo-1532498551838-b7a1cfac622e?auto=format&fit=crop&w=600&q=80" alt="Entrenamiento de tenis de mesa para adultos en Alcoy" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
+              <img src="img/club/20260718_112024.webp" alt="Entrenamiento de tenis de mesa para adultos en Alcoy" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
             </div>
             <div class="school-content-side">
               <span class="card-tag">Adultos e Iniciación</span>
@@ -327,44 +391,64 @@
           <span class="section-subtitle-tag">Competición Oficial</span>
           <h2 class="section-main-title">Equipos Federados del CTM Alcoy</h2>
         </div>
-        <div class="benefits-grid">
+        <div class="benefits-grid" style="grid-template-columns: repeat(4, 1fr);">
+          <!-- Equipo 1: Segunda Nacional -->
           <div class="card">
-            <div class="card-img-wrapper" style="height: 180px; overflow: hidden;">
-              <img src="https://images.unsplash.com/photo-1534158914592-062992fbe900?auto=format&fit=crop&w=600&q=80" alt="Palas de juego en CTM Alcoy" class="card-img" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
+            <div class="card-img-wrapper" style="height: 150px; overflow: hidden;">
+              <img src="img/club/20260718_111934.webp" alt="Mesa de competición CTM Alcoy" class="card-img" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
             </div>
-            <div class="card-content">
-              <span class="card-tag">Competición Federada</span>
-              <h3 class="card-title">Equipo A</h3>
-              <p>Nuestro equipo de élite que representa al club en las máximas ligas nacionales y autonómicas.</p>
+            <div class="card-content" style="padding: 1.5rem;">
+              <span class="card-tag" style="background: rgba(245,158,11,0.1); color: var(--accent);">Nacional (España)</span>
+              <h3 class="card-title" style="font-size: 1.1rem; margin-top: 0.5rem;">Segunda Nacional</h3>
+              <p style="font-size: 0.85rem; line-height: 1.4;">Nuestro equipo de categoría absoluta de bronce a nivel nacional en la RFETM.</p>
             </div>
-            <div class="card-footer">
-              <a href="clases-tenis-mesa-alcoy/#equipos" class="btn btn-secondary" style="padding: 0.4rem 1rem; font-size: 0.8rem;">Ver equipos</a>
+            <div class="card-footer" style="padding: 0 1.5rem 1.5rem 1.5rem;">
+              <a href="clases-tenis-mesa-alcoy/#equipos" class="btn btn-secondary" style="padding: 0.4rem 1rem; font-size: 0.8rem; width: 100%; text-align: center;">Ver detalles</a>
             </div>
           </div>
+
+          <!-- Equipo 2: Primera Autonómica A -->
           <div class="card">
-            <div class="card-img-wrapper" style="height: 180px; overflow: hidden;">
-              <img src="https://images.unsplash.com/photo-1529973625058-a665431328fb?auto=format&fit=crop&w=600&q=80" alt="Acción de juego de tenis de mesa" class="card-img" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
+            <div class="card-img-wrapper" style="height: 150px; overflow: hidden;">
+              <img src="img/club/20260718_112008.webp" alt="Área de entrenamiento del CTM Alcoy" class="card-img" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
             </div>
-            <div class="card-content">
-              <span class="card-tag">Promoción y Desarrollo</span>
-              <h3 class="card-title">Equipo B</h3>
-              <p>Equipo de formación y proyección enfocado en el fogueo y madurez de nuestros jugadores de cantera.</p>
+            <div class="card-content" style="padding: 1.5rem;">
+              <span class="card-tag">Comunidad Valenciana</span>
+              <h3 class="card-title" style="font-size: 1.1rem; margin-top: 0.5rem;">Primera Autonómica "A"</h3>
+              <p style="font-size: 0.85rem; line-height: 1.4;">Primer equipo de competición autonómica oficial de la federación territorial FTTCV.</p>
             </div>
-            <div class="card-footer">
-              <a href="clases-tenis-mesa-alcoy/#equipos" class="btn btn-secondary" style="padding: 0.4rem 1rem; font-size: 0.8rem;">Ver equipos</a>
+            <div class="card-footer" style="padding: 0 1.5rem 1.5rem 1.5rem;">
+              <a href="clases-tenis-mesa-alcoy/#equipos" class="btn btn-secondary" style="padding: 0.4rem 1rem; font-size: 0.8rem; width: 100%; text-align: center;">Ver detalles</a>
             </div>
           </div>
+
+          <!-- Equipo 3: Primera Autonómica B -->
           <div class="card">
-            <div class="card-img-wrapper" style="height: 180px; overflow: hidden;">
-              <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=600&q=80" alt="Deportistas veteranos jugando ping pong" class="card-img" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
+            <div class="card-img-wrapper" style="height: 150px; overflow: hidden;">
+              <img src="img/club/20260718_112024.webp" alt="Sala de juego del CTM Alcoy" class="card-img" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
             </div>
-            <div class="card-content">
-              <span class="card-tag">Veteranos (+40/+50)</span>
-              <h3 class="card-title">Veteranos</h3>
-              <p>La experiencia del club en ligas veteranas. Manteniendo la pasión y competitividad activa.</p>
+            <div class="card-content" style="padding: 1.5rem;">
+              <span class="card-tag">Comunidad Valenciana</span>
+              <h3 class="card-title" style="font-size: 1.1rem; margin-top: 0.5rem;">Primera Autonómica "B"</h3>
+              <p style="font-size: 0.85rem; line-height: 1.4;">Segundo equipo filial y de desarrollo en la máxima categoría territorial de la FTTCV.</p>
             </div>
-            <div class="card-footer">
-              <a href="clases-tenis-mesa-alcoy/#equipos" class="btn btn-secondary" style="padding: 0.4rem 1rem; font-size: 0.8rem;">Ver equipos</a>
+            <div class="card-footer" style="padding: 0 1.5rem 1.5rem 1.5rem;">
+              <a href="clases-tenis-mesa-alcoy/#equipos" class="btn btn-secondary" style="padding: 0.4rem 1rem; font-size: 0.8rem; width: 100%; text-align: center;">Ver detalles</a>
+            </div>
+          </div>
+
+          <!-- Equipo 4: Segunda Autonómica -->
+          <div class="card">
+            <div class="card-img-wrapper" style="height: 150px; overflow: hidden;">
+              <img src="img/club/20260718_112052.webp" alt="Perspectiva de la sala del CTM Alcoy" class="card-img" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
+            </div>
+            <div class="card-content" style="padding: 1.5rem;">
+              <span class="card-tag">Comunidad Valenciana</span>
+              <h3 class="card-title" style="font-size: 1.1rem; margin-top: 0.5rem;">Segunda Autonómica</h3>
+              <p style="font-size: 0.85rem; line-height: 1.4;">Equipo de promoción y formación enfocado en fogueo e iniciación de nuevos federados.</p>
+            </div>
+            <div class="card-footer" style="padding: 0 1.5rem 1.5rem 1.5rem;">
+              <a href="clases-tenis-mesa-alcoy/#equipos" class="btn btn-secondary" style="padding: 0.4rem 1rem; font-size: 0.8rem; width: 100%; text-align: center;">Ver detalles</a>
             </div>
           </div>
         </div>
@@ -413,7 +497,7 @@
               </div>
               <div>
                 <h4 style="font-size: 0.95rem; margin-bottom: 0.2rem;">Puertas Abiertas I</h4>
-                <p style="font-size: 0.8rem; margin-bottom: 0; color: var(--text-muted);">Domingo 6 de Septiembre</p>
+                <p style="font-size: 0.8rem; margin-bottom: 0; color: var(--text-muted);">Domingo 6 de Septiembre de 2026</p>
               </div>
             </div>
             <div class="card" style="padding: 1.25rem; display: flex; gap: 1rem; align-items: center;">
@@ -423,7 +507,7 @@
               </div>
               <div>
                 <h4 style="font-size: 0.95rem; margin-bottom: 0.2rem;">Puertas Abiertas II</h4>
-                <p style="font-size: 0.8rem; margin-bottom: 0; color: var(--text-muted);">Domingo 13 de Septiembre</p>
+                <p style="font-size: 0.8rem; margin-bottom: 0; color: var(--text-muted);">Domingo 13 de Septiembre de 2026</p>
               </div>
             </div>
             <div class="card" style="padding: 1.25rem; display: flex; gap: 1rem; align-items: center;">
@@ -433,7 +517,7 @@
               </div>
               <div>
                 <h4 style="font-size: 0.95rem; margin-bottom: 0.2rem;">Puertas Abiertas Especial</h4>
-                <p style="font-size: 0.8rem; margin-bottom: 0; color: var(--text-muted);">Domingo 3 de Enero</p>
+                <p style="font-size: 0.8rem; margin-bottom: 0; color: var(--text-muted);">Domingo 3 de Enero de 2027</p>
               </div>
             </div>
           </div>
@@ -587,11 +671,7 @@
     <div class="container footer-top">
       <div class="footer-brand">
         <a href="./" class="logo-link">
-          <svg class="logo-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="12" cy="10" r="8" />
-            <path d="M12 18v4" stroke-width="2" />
-            <circle cx="19" cy="18" r="2" fill="currentColor" />
-          </svg>
+          <img src="img/logo.png" alt="Logo CTM Alcoy" class="logo-icon" style="height:40px; width:auto; vertical-align:middle; margin-right:10px;">
           <span class="logo-text">CTM <span>Alcoy</span></span>
         </a>
         <p class="footer-brand-text">Fomentando la práctica, valores y competición del tenis de mesa en Alcoy. Formación desde las bases hasta categorías absolutas.</p>
@@ -622,7 +702,7 @@
             <svg class="footer-contact-icon" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
             <div class="footer-contact-text">
               <span>Dirección</span>
-              Polideportivo Francisco Laporta, Ctra. Font Roja, s/n, 03801 Alcoy (Alicante)
+              Polideportivo Francisco Laporta, Ctra. Font Roja, s/n, 03804 Alcoi (Alacant)
             </div>
           </li>
           <li class="footer-contact-item">

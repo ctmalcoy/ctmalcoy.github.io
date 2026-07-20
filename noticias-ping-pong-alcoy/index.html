@@ -32,11 +32,7 @@
   <header class="site-header">
     <div class="container nav-container">
       <a href="../" class="logo-link" aria-label="Ir a la página de inicio">
-        <svg class="logo-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="12" cy="10" r="8" />
-          <path d="M12 18v4" stroke-width="2" />
-          <circle cx="19" cy="18" r="2" fill="currentColor" />
-        </svg>
+        <img src="../img/logo.png" alt="Logo CTM Alcoy" class="logo-icon" style="height:40px; width:auto; vertical-align:middle; margin-right:10px;">
         <span class="logo-text">CTM <span>Alcoy</span></span>
       </a>
       
@@ -74,7 +70,7 @@
           <h2 class="section-main-title">Últimas Noticias</h2>
         </div>
         
-        <div class="benefits-grid" style="grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+        <div class="benefits-grid" style="grid-template-columns: repeat(2, 1fr); gap: 2rem;">
           <!-- Noticia 1 -->
           <article class="card">
             <div class="card-img-wrapper" style="height: 180px; overflow: hidden;">
@@ -82,35 +78,22 @@
             </div>
             <div class="card-content">
               <span class="card-tag">Competición</span>
-              <span style="font-size: 0.8rem; color: var(--text-muted); display: block; margin-bottom: 0.5rem;">15 de Julio de 2026</span>
-              <h3 class="card-title" style="font-size: 1.25rem;">Ascenso Histórico y Campeón Autonómico de Veteranos</h3>
-              <p>Cerramos la temporada con broche de oro tras el brillante ascenso de nuestro equipo de 2ª Autonómica a 1ª Autonómica de la Comunidad Valenciana. Además, Carlos Gomar hace historia al coronarse Campeón Absoluto en el Torneo de Veteranos.</p>
+              <span style="font-size: 0.8rem; color: var(--text-muted); display: block; margin-bottom: 0.5rem;">Última Temporada</span>
+              <h3 class="card-title" style="font-size: 1.25rem;">Resultados Destacados en Campeonatos Autonómicos</h3>
+              <p>El CTM Alcoy ha cosechado grandes resultados: tercer puesto individual y por equipos en categoría Benjamín, campeón Benjamín individual en Juegos Escolares Autonómicos, tercer puesto infantil y alevín en el Torneo Promesas, y Campeón Autonómico de Veteranos.</p>
             </div>
           </article>
           
           <!-- Noticia 2 -->
           <article class="card">
             <div class="card-img-wrapper" style="height: 180px; overflow: hidden;">
-              <img src="https://images.unsplash.com/photo-1511067007398-7e4b90cfa4bc?auto=format&fit=crop&w=600&q=80" alt="Plazo de matrícula para clases de tenis de mesa en Alcoy" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
+              <img src="../img/club/20260718_112052.webp" alt="Inscripción escuela de tenis de mesa infantil en Alcoy" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
             </div>
             <div class="card-content">
               <span class="card-tag">Escuela</span>
-              <span style="font-size: 0.8rem; color: var(--text-muted); display: block; margin-bottom: 0.5rem;">10 de Julio de 2026</span>
-              <h3 class="card-title" style="font-size: 1.25rem;">Apertura del plazo de inscripción</h3>
-              <p>Ya puedes reservar tu plaza para la temporada 2026/2027. Contamos con grupos reducidos adaptados para todas las edades. ¡No te quedes sin tu plaza para entrenar!</p>
-            </div>
-          </article>
-
-          <!-- Noticia 3 -->
-          <article class="card">
-            <div class="card-img-wrapper" style="height: 180px; overflow: hidden;">
-              <img src="https://images.unsplash.com/photo-1502224562085-639556652f33?auto=format&fit=crop&w=600&q=80" alt="Colaboración del club con patrocinadores locales de Alcoy" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
-            </div>
-            <div class="card-content">
-              <span class="card-tag">Institucional</span>
-              <span style="font-size: 0.8rem; color: var(--text-muted); display: block; margin-bottom: 0.5rem;">28 de Junio de 2026</span>
-              <h3 class="card-title" style="font-size: 1.25rem;">Renovación de Patrocinio Principal</h3>
-              <p>Nos enorgullece anunciar la renovación del patrocinio que nos permite seguir manteniendo cuotas asequibles y modernizar el equipamiento técnico de la sala.</p>
+              <span style="font-size: 0.8rem; color: var(--text-muted); display: block; margin-bottom: 0.5rem;">Temporada 2026/2027</span>
+              <h3 class="card-title" style="font-size: 1.25rem;">Refuerzo de la Escuela Infantil y Juvenil</h3>
+              <p>Ampliamos nuestra apuesta por la escuela deportiva de niños entre 9 y 14 años, sumando un total de 12 jugadores habituales. Para la próxima temporada el club proyecta llegar a 4 días de entrenamiento semanales con entrenamientos especiales en verano.</p>
             </div>
           </article>
         </div>
@@ -122,112 +105,80 @@
       <div class="container">
         <div class="section-title-wrapper" style="text-align: center;">
           <span class="section-subtitle-tag">Planifica tus jornadas</span>
-          <h2 class="section-main-title">Agenda y Próximos Eventos</h2>
+          <h2 class="section-main-title">Agenda de Jornadas de Captación</h2>
         </div>
 
-        <!-- Filter Controls -->
-        <nav class="filter-nav" aria-label="Filtrado de eventos" style="margin-top: 2rem;">
-          <button class="filter-btn active" data-filter="all">Todos los Eventos</button>
-          <button class="filter-btn" data-filter="competicion">Competición</button>
-          <button class="filter-btn" data-filter="entrenamiento">Entrenamientos</button>
-          <button class="filter-btn" data-filter="social">Eventos Sociales</button>
-        </nav>
-
         <!-- Calendar cards list -->
-        <div class="calendar-grid" style="margin-top: 2.5rem;">
-          <!-- Event 1 -->
-          <div class="calendar-card" data-category="competicion">
-            <div class="calendar-date-block">
-              <span class="calendar-date-day">25</span>
-              <span class="calendar-date-month">Julio</span>
-            </div>
-            <div class="calendar-info-block">
-              <div>
-                <h3 class="calendar-event-title">Torneo Popular de Verano 2026</h3>
-                <div class="calendar-meta">
-                  <span class="calendar-meta-item">
-                    <svg class="calendar-meta-icon" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
-                    09:00 - 19:00
-                  </span>
-                  <span class="calendar-meta-item">
-                    <svg class="calendar-meta-icon" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-                    Instalaciones CTM Alcoy
-                  </span>
-                </div>
-              </div>
-              <span class="calendar-badge badge-competicion">Competición</span>
-            </div>
-          </div>
-
-          <!-- Event 2 -->
+        <div class="calendar-grid" style="margin-top: 2.5rem; max-width: 800px; margin-left: auto; margin-right: auto;">
+          <!-- Evento 1 -->
           <div class="calendar-card" data-category="social">
             <div class="calendar-date-block">
-              <span class="calendar-date-day">05</span>
-              <span class="calendar-date-month">Sept.</span>
+              <span class="calendar-date-day">06</span>
+              <span class="calendar-date-month">Sept. 2026</span>
             </div>
             <div class="calendar-info-block">
               <div>
-                <h3 class="calendar-event-title">Jornada de Puertas Abiertas</h3>
+                <h3 class="calendar-event-title">Jornada de Puertas Abiertas I (Captación de Niños)</h3>
                 <div class="calendar-meta">
                   <span class="calendar-meta-item">
                     <svg class="calendar-meta-icon" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
-                    10:00 - 13:00 / 17:00 - 20:00
+                    Domingo completo
                   </span>
                   <span class="calendar-meta-item">
                     <svg class="calendar-meta-icon" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-                    Sala de Entrenamiento CTM Alcoy
+                    Sala de entrenamiento CTM Alcoy
                   </span>
                 </div>
               </div>
-              <span class="calendar-badge badge-evento">Evento Social</span>
+              <span class="calendar-badge badge-evento">Puertas Abiertas</span>
             </div>
           </div>
 
-          <!-- Event 3 -->
-          <div class="calendar-card" data-category="entrenamiento">
+          <!-- Evento 2 -->
+          <div class="calendar-card" data-category="social">
             <div class="calendar-date-block">
-              <span class="calendar-date-day">14</span>
-              <span class="calendar-date-month">Sept.</span>
+              <span class="calendar-date-day">13</span>
+              <span class="calendar-date-month">Sept. 2026</span>
             </div>
             <div class="calendar-info-block">
               <div>
-                <h3 class="calendar-event-title">Inicio de Curso Escuela de Ping Pong</h3>
+                <h3 class="calendar-event-title">Jornada de Puertas Abiertas II (Captación de Niños)</h3>
                 <div class="calendar-meta">
                   <span class="calendar-meta-item">
                     <svg class="calendar-meta-icon" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
-                    Ver horarios por grupos
+                    Domingo completo
                   </span>
                   <span class="calendar-meta-item">
                     <svg class="calendar-meta-icon" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-                    Sede CTM Alcoy
+                    Sala de entrenamiento CTM Alcoy
                   </span>
                 </div>
               </div>
-              <span class="calendar-badge badge-entrenamiento">Entrenamiento</span>
+              <span class="calendar-badge badge-evento">Puertas Abiertas</span>
             </div>
           </div>
 
-          <!-- Event 4 -->
-          <div class="calendar-card" data-category="competicion">
+          <!-- Evento 3 -->
+          <div class="calendar-card" data-category="social">
             <div class="calendar-date-block">
               <span class="calendar-date-day">03</span>
-              <span class="calendar-date-month">Octubre</span>
+              <span class="calendar-date-month">Enero 2027</span>
             </div>
             <div class="calendar-info-block">
               <div>
-                <h3 class="calendar-event-title">Primera Jornada Liga Autonómica (Equipo A)</h3>
+                <h3 class="calendar-event-title">Jornada de Puertas Abiertas Especial Navidad (Captación)</h3>
                 <div class="calendar-meta">
                   <span class="calendar-meta-item">
                     <svg class="calendar-meta-icon" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
-                    17:00
+                    Periodo vacacional de Navidad
                   </span>
                   <span class="calendar-meta-item">
                     <svg class="calendar-meta-icon" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-                    Pabellón Municipal de Deportes (Alcoy)
+                    Sala de entrenamiento CTM Alcoy
                   </span>
                 </div>
               </div>
-              <span class="calendar-badge badge-competicion">Competición</span>
+              <span class="calendar-badge badge-evento">Puertas Abiertas</span>
             </div>
           </div>
         </div>
@@ -240,11 +191,7 @@
     <div class="container footer-top">
       <div class="footer-brand">
         <a href="../" class="logo-link">
-          <svg class="logo-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="12" cy="10" r="8" />
-            <path d="M12 18v4" stroke-width="2" />
-            <circle cx="19" cy="18" r="2" fill="currentColor" />
-          </svg>
+          <img src="../img/logo.png" alt="Logo CTM Alcoy" class="logo-icon" style="height:40px; width:auto; vertical-align:middle; margin-right:10px;">
           <span class="logo-text">CTM <span>Alcoy</span></span>
         </a>
         <p class="footer-brand-text">Fomentando la práctica, valores y competición del tenis de mesa en Alcoy. Formación desde las bases hasta categorías absolutas.</p>
@@ -275,7 +222,7 @@
             <svg class="footer-contact-icon" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
             <div class="footer-contact-text">
               <span>Dirección</span>
-              Polideportivo Francisco Laporta, Ctra. Font Roja, s/n, 03801 Alcoy (Alicante)
+              Polideportivo Francisco Laporta, Ctra. Font Roja, s/n, 03804 Alcoi (Alacant)
             </div>
           </li>
           <li class="footer-contact-item">
