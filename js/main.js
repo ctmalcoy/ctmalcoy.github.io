@@ -115,7 +115,7 @@ function initWhatsApp() {
   if (document.querySelector('.whatsapp-float')) return;
 
   const waButton = document.createElement('a');
-  waButton.href = 'https://wa.me/34653796029?text=¡Hola!%20Me%20gustaría%20recibir%20más%20información%20sobre%20el%20Club%20Tenis%20Mesa%20Alcoy.';
+  waButton.href = 'https://wa.me/34615924832?text=¡Hola!%20Me%20gustaría%20recibir%20más%20información%20sobre%20el%20Club%20Tenis%20Mesa%20Alcoy.';
   waButton.className = 'whatsapp-float';
   waButton.target = '_blank';
   waButton.rel = 'noopener noreferrer';
